@@ -5,7 +5,10 @@ module.exports = {
    
   ],
   theme: {
-    extend: {},
+    
+    extend: {
+      backgroundColor:['active'],
+    },
   },
   plugins: [],
 }
