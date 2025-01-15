@@ -2,7 +2,14 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Rubik', 'sans-serif'],
+      },
+      colors: {
+        customRed: '#F53838',
+      },
+    },
   },
   plugins: [],
 }
